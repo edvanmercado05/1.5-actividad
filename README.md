@@ -20,3 +20,47 @@ Aplicación web CRUD utilizando Firebase Admin SDK con Firestore, Node.js y Expr
 
 ## Variables de entorno
 Crea un archivo `.env` en el directorio raíz y agrega lo siguiente:
+GOOGLE_APPLICATION_CREDENTIALS=ruta/a/tu/serviceAccountKey.json
+
+
+## Instalación
+1. Clona este repositorio:
+   ```bash
+   git clone <url-del-repositorio>
+   cd <carpeta-del-repositorio>
+Instala las dependencias:
+
+npm install
+Uso
+Desarrollo
+Ejecuta la aplicación en modo desarrollo:
+
+
+npm run dev
+Producción
+Inicia la aplicación en modo producción:
+
+
+npm start
+Estructura del proyecto
+
+nodejs-firebase-example-master/
+├── src/
+│   ├── index.js        # Punto de entrada principal de la aplicación
+│   ├── routes/         # Rutas de Express
+│   ├── views/          # Plantillas Handlebars
+│   ├── services/       # Lógica relacionada con Firebase
+├── package.json        # Configuración del proyecto
+├── .gitignore          # Archivos ignorados por Git
+├── README.md           # Documentación
+Recursos
+Configuración de Firebase Admin SDK
+Gestión de datos en Firestore
+Patrones de fondo CSS
+Temas de Bootstrap con Bootswatch
+
+
+
+
+
+
